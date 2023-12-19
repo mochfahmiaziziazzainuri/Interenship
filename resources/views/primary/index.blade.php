@@ -69,7 +69,7 @@
 
 
     <!-- Video Modal Start -->
-   @include('component.vidio modal')
+   @include('component.vidio-modal')
     <!-- Video Modal End -->
 
     <!-- Service Start -->
@@ -98,7 +98,7 @@
 
 
     <!-- Footer Start -->
-    @include('component.foote')
+    @include('component.footer')
     <!-- Footer End -->
 
 
