@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>GrowMark - Digital Marketing HTML Template</title>
+    <title>Interenship</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -44,66 +44,66 @@
 
 
     <!-- Topbar Start -->
-    @include('component.topbar')
+    @include('component.home.topbar')
     <!-- Topbar End -->
 
 
     <!-- Navbar Start -->
-    @include('component.navbar')
+    @include('component.home.navbar')
     <!-- Navbar End -->
 
 
     <!-- Carousel Start -->
-   @include('component.carousel')
+   @include('component.home.carousel')
     <!-- Carousel End -->
 
 
     <!-- Features Start -->
-    @include('component.fetures')
+    @include('component.home.fetures')
     <!-- Features End -->
 
 
     <!-- About Start -->
-   @include('component.about')
+   @include('component.home.about')
     <!-- About End -->
 
 
     <!-- Video Modal Start -->
-   @include('component.vidio-modal')
+   @include('component.home.vidio-modal')
     <!-- Video Modal End -->
 
     <!-- Service Start -->
-    @include('component.service')
+    @include('component.home.service')
     <!-- Service End -->
 
 
     <!-- Project Start -->
-    @include('component.project')
+    @include('component.home.project')
     <!-- Project End -->
 
 
     <!-- Quote Start -->
-    @include('component.quote')
+    @include('component.home.quote')
     <!-- Quote Start -->
 
 
     <!-- Team Start -->
-   @include('component.team')
+   @include('component.home.team')
     <!-- Team End -->
 
 
     <!-- Testimonial Start -->
-    @include('component.testimonial')
+    @include('component.home.testimonial')
     <!-- Testimonial End -->
 
 
     <!-- Footer Start -->
-    @include('component.footer')
+    @include('component.home.footer')
     <!-- Footer End -->
 
 
     <!-- Copyright Start -->
-   @include('component.copyright')
+   @include('component.home.copyright')
     <!-- Copyright End -->
 
 

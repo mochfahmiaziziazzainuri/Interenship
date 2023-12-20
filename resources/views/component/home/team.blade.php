@@ -7,7 +7,7 @@
         <div class="row g-4">
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="team-item rounded overflow-hidden pb-4">
-                    <img class="img-fluid mb-4" src="img/team-1.jpg" alt="">
+                    <img class="img-fluid mb-4" src="{{ asset('interenship') }}/img/team-1.jpg" alt="">
                     <h5>Alex Robin</h5>
                     <span class="text-primary">Founder & CEO</span>
                     <ul class="team-social">
@@ -20,7 +20,7 @@
             </div>
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="team-item rounded overflow-hidden pb-4">
-                    <img class="img-fluid mb-4" src="img/team-2.jpg" alt="">
+                    <img class="img-fluid mb-4" src="{{ asset('interenship') }}/img/team-2.jpg" alt="">
                     <h5>Adam Crew</h5>
                     <span class="text-primary">Co Founder</span>
                     <ul class="team-social">
@@ -33,7 +33,7 @@
             </div>
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="team-item rounded overflow-hidden pb-4">
-                    <img class="img-fluid mb-4" src="img/team-3.jpg" alt="">
+                    <img class="img-fluid mb-4" src="{{ asset('interenship') }}/img/team-3.jpg" alt="">
                     <h5>Boris Johnson</h5>
                     <span class="text-primary">Executive Manager</span>
                     <ul class="team-social">
@@ -46,7 +46,7 @@
             </div>
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                 <div class="team-item rounded overflow-hidden pb-4">
-                    <img class="img-fluid mb-4" src="img/team-4.jpg" alt="">
+                    <img class="img-fluid mb-4" src="{{ asset('interenship') }}/img/team-4.jpg" alt="">
                     <h5>Robert Jordan</h5>
                     <span class="text-primary">Digital Marketer</span>
                     <ul class="team-social">

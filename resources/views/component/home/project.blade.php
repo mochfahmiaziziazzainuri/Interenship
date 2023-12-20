@@ -8,7 +8,7 @@
         <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.1s">
             <div class="project-item mb-5">
                 <div class="position-relative">
-                    <img class="img-fluid" src="img/project-1.jpg" alt="">
+                    <img class="img-fluid" src="{{ asset('interenship') }}/img/project-1.jpg" alt="">
                     <div class="project-overlay">
                         <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/project-1.jpg"
                             data-lightbox="project"><i class="fa fa-eye"></i></a>
@@ -23,7 +23,7 @@
             </div>
             <div class="project-item mb-5">
                 <div class="position-relative">
-                    <img class="img-fluid" src="img/project-2.jpg" alt="">
+                    <img class="img-fluid" src="{{ asset('interenship') }}/img/project-2.jpg" alt="">
                     <div class="project-overlay">
                         <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/project-2.jpg"
                             data-lightbox="project"><i class="fa fa-eye"></i></a>
@@ -38,7 +38,7 @@
             </div>
             <div class="project-item mb-5">
                 <div class="position-relative">
-                    <img class="img-fluid" src="img/project-3.jpg" alt="">
+                    <img class="img-fluid" src="{{ asset('interenship') }}/img/project-3.jpg" alt="">
                     <div class="project-overlay">
                         <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/project-3.jpg"
                             data-lightbox="project"><i class="fa fa-eye"></i></a>
@@ -53,7 +53,7 @@
             </div>
             <div class="project-item mb-5">
                 <div class="position-relative">
-                    <img class="img-fluid" src="img/project-4.jpg" alt="">
+                    <img class="img-fluid" src="{{ asset('interenship') }}/img/project-4.jpg" alt="">
                     <div class="project-overlay">
                         <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/project-4.jpg"
                             data-lightbox="project"><i class="fa fa-eye"></i></a>

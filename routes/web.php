@@ -13,7 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {return view('primary.index');});
+Route::get('/', function () {return view('primary.home');});
+// Route::get('/about', function () {return view('component.about');})->name();
+
 
 
 

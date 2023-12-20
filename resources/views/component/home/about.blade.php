@@ -17,12 +17,12 @@
                         diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</p>
                     <div class="row g-5 pt-2 mb-5">
                         <div class="col-sm-6">
-                            <img class="img-fluid mb-4" src="img/icon/icon-5.png" alt="">
+                            <img class="img-fluid mb-4" src="{{ asset('interenship') }}/img/icon/icon-5.png" alt="">
                             <h5 class="mb-3">Managed Services</h5>
                             <span>Clita erat ipsum et lorem et sit sed stet lorem</span>
                         </div>
                         <div class="col-sm-6">
-                            <img class="img-fluid mb-4" src="img/icon/icon-2.png" alt="">
+                            <img class="img-fluid mb-4" src="{{ asset('interenship') }}/img/icon/icon-2.png" alt="">
                             <h5 class="mb-3">Dedicated Experts</h5>
                             <span>Clita erat ipsum et lorem et sit sed stet lorem</span>
                         </div>
