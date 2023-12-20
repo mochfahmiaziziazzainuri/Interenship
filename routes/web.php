@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,3 +23,7 @@ Route::get('/contact', function () {return view('primary.contact');})->name('con
 
 
 // Route::get('/tampilan2', function () {return view('tampilan2');})->name('tampilan2');
+
+// Auth::routes();
+
+Route::get('/home', [HomeController::class, 'index'])->name('index');
