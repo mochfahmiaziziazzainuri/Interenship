@@ -13,7 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {return view('primary.index');});
+Route::get('/', function () {return view('primary.home');})->name('home');
+Route::get('/about', function () {return view('primary.about');})->name('about');
+Route::get('/service', function () {return view('primary.services');})->name('service');
+Route::get('/project', function () {return view('primary.project');})->name('project');
+Route::get('/contact', function () {return view('primary.contact');})->name('contact');
 
 
 

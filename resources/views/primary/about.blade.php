@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,7 +34,6 @@
 
     <!-- Template Stylesheet -->
     <link href="{{ asset('interenship/css/style.css') }}" rel="stylesheet">
-    <link rel="shortcut icon" href="images/images (3).jpg" type="image/x-icon">
 </head>
 
 <body>
@@ -55,76 +55,52 @@
     <!-- Navbar End -->
 
 
-    <!-- Carousel Start -->
-   @include('component.home.carousel')
-    <!-- Carousel End -->
-
-
-    <!-- Features Start -->
-    @include('component.home.fetures')
-    <!-- Features End -->
+    <!-- Page Header Start -->
+    @include('component.about.pageheader')
+    <!-- Page Header End -->
 
 
     <!-- About Start -->
-   @include('component.home.about')
+   @include('component.about.about')
     <!-- About End -->
 
 
     <!-- Video Modal Start -->
-   @include('component.home.vidio-modal')
+    @include('component.about.vidiomodal')
     <!-- Video Modal End -->
-
-    <!-- Service Start -->
-    @include('component.home.service')
-    <!-- Service End -->
-
-
-    <!-- Project Start -->
-    @include('component.home.project')
-    <!-- Project End -->
-
-
-    <!-- Quote Start -->
-    @include('component.home.quote')
-    <!-- Quote Start -->
 
 
     <!-- Team Start -->
-   @include('component.home.team')
+   @include('component.about.team')
     <!-- Team End -->
 
 
-    <!-- Testimonial Start -->
-    @include('component.home.testimonial')
-    <!-- Testimonial End -->
+<!-- Footer Start -->
+@include('component.footer')
+<!-- Footer End -->
 
 
-    <!-- Footer Start -->
-    @include('component.footer')
-    <!-- Footer End -->
+<!-- Copyright Start -->
+@include('component.copyright')
+<!-- Copyright End -->
 
 
-    <!-- Copyright Start -->
-   @include('component.copyright')
-    <!-- Copyright End -->
+<!-- Back to Top -->
+<a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+        class="bi bi-arrow-up"></i></a>
 
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
-            class="bi bi-arrow-up"></i></a>
+<!-- JavaScript Libraries -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="{{ asset('interenship/lib/wow/wow.min.js') }}"></script>
+<script src="{{ asset('interenship/lib/easing/easing.min.js') }}"></script>
+<script src="{{ asset('interenship/lib/waypoints/waypoints.min.js') }}"></script>
+<script src="{{ asset('interenship/lib/owlcarousel/owl.carousel.min.js') }}"></script>
+<script src="{{ asset('interenship/lib/lightbox/js/lightbox.min.js') }}"></script>
 
-
-    <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="{{ asset('interenship/lib/wow/wow.min.js') }}"></script>
-    <script src="{{ asset('interenship/lib/easing/easing.min.js') }}"></script>
-    <script src="{{ asset('interenship/lib/waypoints/waypoints.min.js') }}"></script>
-    <script src="{{ asset('interenship/lib/owlcarousel/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('interenship/lib/lightbox/js/lightbox.min.js') }}"></script>
-
-    <!-- Template Javascript -->
-    <script src="{{ asset('interenship/js/main.js') }}"></script>
+<!-- Template Javascript -->
+<script src="{{ asset('interenship/js/main.js') }}"></script>
 </body>
 
 </html>
