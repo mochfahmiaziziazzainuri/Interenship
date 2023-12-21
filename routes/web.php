@@ -17,7 +17,7 @@ use App\Http\Controllers\ServiceController;
 | routes are loaded by the RouteServiceProvider and all of them will
 | be assigned to the "web" middleware group. Make something great!
 |
-*/
+*/ 
 
 Route::get('', [IndexController::class, 'index'])->name('home');
 Route::get('/about', [AboutController::class, 'index'])->name('about');

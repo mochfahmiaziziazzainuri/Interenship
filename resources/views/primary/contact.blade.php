@@ -30,6 +30,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="{{ asset('interenship/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link rel="icon" href="{{ asset('interenship/img/profile.jpg') }}" type="image/x-icon">
 
     <!-- Template Stylesheet -->
     <link href="{{ asset('interenship/css/style.css') }}" rel="stylesheet">
