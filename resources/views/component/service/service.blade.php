@@ -1,8 +1,8 @@
 <div class="container-xxl py-5">
     <div class="container">
-        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 560px;">
             <p class="fs-5 fw-medium text-primary">Program Magang Profesional</p>
-            <h1 class="display-5 mb-5">Selamat datang di Program Magang Profesional kami! Kami dengan senang hati membuka pintu bagi para pelajar dan mahasiswa yang bersemangat untuk mendapatkan pengalaman praktis di dunia kerja. Program magang kami dirancang untuk memberikan wawasan mendalam tentang industri kami dan mempersiapkan Anda untuk tantangan masa depan.
+            <h1 class="display-5 mb-5">Welcome to our internship website! We are happy to open our doors to anyone who wants to gain practical experience in the world of work.
 
             </h1>
         </div>

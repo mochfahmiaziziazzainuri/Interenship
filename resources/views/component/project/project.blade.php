@@ -10,7 +10,7 @@
                 <div class="position-relative">
                     <img class="img-fluid" src="{{ asset('interenship') }}/img/bersama.jpg" alt="">
                     <div class="project-overlay">
-                        <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/project-1.jpg"
+                        <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/bersama.jpg"
                             data-lightbox="project"><i class="fa fa-eye"></i></a>
                         <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
                                 class="fa fa-link"></i></a>
@@ -40,7 +40,7 @@
                 <div class="position-relative">
                     <img class="img-fluid" src="{{ asset('interenship') }}/img/mnj.jpg" alt="">
                     <div class="project-overlay">
-                        <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/project-3.jpg"
+                        <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/mnj.jpg"
                             data-lightbox="project"><i class="fa fa-eye"></i></a>
                         <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
                                 class="fa fa-link"></i></a>
@@ -55,7 +55,7 @@
                 <div class="position-relative">
                     <img class="img-fluid" src="{{ asset('interenship') }}/img/linux.png" alt="">
                     <div class="project-overlay">
-                        <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/project-4.jpg"
+                        <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/linux.png"
                             data-lightbox="project"><i class="fa fa-eye"></i></a>
                         <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
                                 class="fa fa-link"></i></a>
