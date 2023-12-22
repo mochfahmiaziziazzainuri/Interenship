@@ -10,7 +10,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="{{ asset('') }}/img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,7 +33,7 @@
 
     <!-- Template Stylesheet -->
     <link href="{{ asset('interenship/css/style.css') }}" rel="stylesheet">
-    <link rel="shortcut icon" href="images/images (3).jpg" type="image/x-icon">
+    <link rel="icon" href="{{ asset('interenship/img/profile.jpg') }}" type="image/x-icon">
 </head>
 
 <body>
