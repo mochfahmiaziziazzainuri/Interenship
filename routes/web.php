@@ -30,7 +30,7 @@ Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 
 // Route::get('/tampilan2', function () {return view('tampilan2');})->name('tampilan2');
 
-Auth::routes();
+// Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('index');
 
