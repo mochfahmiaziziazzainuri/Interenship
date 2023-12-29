@@ -35,6 +35,14 @@ Auth::routes();
 Route::prefix('admin/')->group(function () {
 
 Route::get('/home', [HomeController::class, 'index'])->name('indexadmin');
+Route::post('/create-menu',[HomeController::class, 'create'])->name('createadmin');
+Route::get('/edit-menu/{idedit}/edit',[HomeController::class, 'edit'])->name('editadmin');
+Route::put('/update-menu/{idedit}/update', [HomeController::class, 'update'])->name('updateadmin');
+Route::get('/delete-menu/{iddelete}/delete', [HomeController::class, 'delete'])->name('deleteadmin');
+ Route::delete('/delete-menu/{iddelete}/delete', [HomeController::class, 'delete'])->name('deleteadmin');
+
+
+
 Route::get('/about', [HomeController::class, 'about'])->name('aboutadmin');
 
 });

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\MenuModel;
 use Illuminate\Http\Request;
 
 class IndexController extends Controller
@@ -11,7 +12,8 @@ class IndexController extends Controller
      */
     public function index()
     {
-        return view('primary.home');
+        $data = MenuModel::where('status','aktif')->get();
+        return view('primary.home',['data'=>$data]);
     }
 
     /**

@@ -1,3 +1,4 @@
+@extends('primary.home')
 <div class="container-fluid bg-white sticky-top">
     <div class="container">
         <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
@@ -10,13 +11,13 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav">
-                    <a href="{{ route('home')}}" class="nav-item nav-link " style="color:{{ Request::routeIs('home') ? 'blue' : '' ;}}">Home</a>
-                    <a href="{{ route('about') }}" class="nav-item nav-link" style="color:{{ Request::routeIs('about') ? 'blue' : '' ;}}">About</a>
-                    <a href="{{ route('service') }}" class="nav-item nav-link" style="color:{{ Request::routeIs('service') ? 'blue' : '' ;}}">Service</a>
-                    <a href="{{ route('project') }}" class="nav-item nav-link" style="color:{{ Request::routeIs('project') ? 'blue' : '' ;}}">Project</a>
-                    <a href="{{ route('contact') }}" class="nav-item nav-link" style="color:{{ Request::routeIs('contact') ? 'blue' : '' ;}}">Contact</a>
+                    @foreach ($data as $d)
+                        <li class="item">
+                            <a href="{{ route($d->url) }}" class="nav-item nav-link " >{{ $d->menu }}</a>
+                        </li>
+                    @endforeach
                 </div>
             </div>
-        </nav>
+        </nav> 
     </div>
 </div>
